@@ -6,6 +6,10 @@
    "python.terminal.activateEnvironment": false,
    "python.formatting.autopep8Path": "/home/gitpod/.pyenv/shims/autopep8",
    "python.linting.flake8Path": "/home/gitpod/.pyenv/shims/flake8",
+   "python.analysis.extraPaths": [
+      "C:/Users/adaml/.virtualenvs/drf-api-rec-qhbvDk4o/lib/site-packages",
+      "C:/Users/adaml/.virtualenvs/drf-api-rec-qhbvDk4o",
+    ],
    "cornflakes.linter.executablePath": "/home/gitpod/.pyenv/shims/flake8",
    "files.exclude": {
       "**/.DS_Store": true,
