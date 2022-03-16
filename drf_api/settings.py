@@ -85,6 +85,7 @@ if 'CLIENT_ORIGIN' in os.environ:
         origin
         for origin in [
             os.environ.get("CLIENT_ORIGIN"),
+            os.environ.get("STEROID_ORIGIN"),
             os.environ.get("LOCAL_ORIGIN"),
         ]
         if origin
